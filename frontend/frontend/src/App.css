@@ -1,0 +1,36 @@
+/* You might want to remove the default `App.css` content if you are fully
+     relying on Tailwind CSS. However, if there are some specific styles
+     you want to keep or add for animations not covered by Tailwind,
+     you can add them here. */
+
+/*
+  Commented out most of the manual CSS as Tailwind classes are now heavily used.
+  Kept only the keyframe for animate-fade-in.
+*/
+
+/* Basic animation for expanding/collapsing */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* Ensure font-inter is loaded if not globally */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap'); */
+
+/* Global body styles if needed, otherwise Tailwind handles it */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* You might still need to include the Tailwind CDN or build process */
+/*
+  If you are not using a Tailwind build process, ensure you have this in your public/index.html <head>:
+  <script src="https://cdn.tailwindcss.com"></script>
+*/
