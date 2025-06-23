@@ -33,7 +33,9 @@ function Home({ sectionClasses }) {
             A Message from the Creator
           </h3>
           <p className="text-base md:text-lg text-gray-800 max-w-5xl mx-auto leading-loose animate-fadeIn delay-500">
-            Hi, I'm Akshaya Swargam, the creator of JavaMaster Hub. This is a completely free platform designed to help you learn Java from basics to advanced levels. You’ll find structured learning content, top free resources, and job/internship listings—all in one place. Whether you're a student or job seeker, this website will guide you step-by-step in mastering Java and building a successful career. All the best for your learning journey and future opportunities!
+          Hi, I'm Akshaya Swargam, the creator of JavaMaster Hub.JavaMaster Hub is a completely free platform designed to help you learn Java from basics to advanced levels through structured content and top-quality resources.
+          It also features a Talent Pool, where students can log in and submit their skills. Recruiters can easily search for candidates by skill, making it easier to discover the right talent.
+          This platform is built to support both learning and career growth—whether you're a student aiming to master Java or someone looking to get noticed by potential employers.All the best on your learning journey and future opportunities!
           </p>
         </div>
       </div>
