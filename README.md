@@ -30,7 +30,7 @@ JavaMasterHub is a skill development and talent discovery platform focused on Ja
 
 ----
 JavaMasterHub/
-├── frontend/        # React app
+├── frontend/frontend # React app
 ├── backend/         # Node.js + Express API
 ├── database/        # SQL files (if any)
 └── README.md
